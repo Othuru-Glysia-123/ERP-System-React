@@ -1,0 +1,91 @@
+// recentOrders.scss
+
+// Component styles
+.bg-white {
+    background-color: #fff;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.shadow-md {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.table-auto {
+    width: auto;
+}
+
+.text-gray-800 {
+    color: #2d3748;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.hover\:bg-gray-100:hover {
+    background-color: #edf2f7;
+}
+
+.transition-all {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.border-gray-200 {
+    border-color: #edf2f7;
+}
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+// Order status styles
+.text-order-status {
+    &.placed {
+        color: #1e90ff; // Blue
+    }
+
+    &.confirmed {
+        color: #008000; // Green
+    }
+
+    &.shipped {
+        color: #ffa500; // Orange
+    }
+
+    &.out-for-delivery {
+        color: #ff6347; // Tomato
+    }
+
+    &.delivered {
+        color: #228b22; // Forest Green
+    }
+
+    // Add more styles for other order statuses as needed
+}

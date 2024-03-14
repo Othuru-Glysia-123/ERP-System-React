@@ -1,0 +1,44 @@
+/* styles.scss */
+
+.order-status {
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 1.2rem;
+}
+
+.placed {
+    color: #3b82f6;
+    /* Sky Blue */
+    background-color: #eff6ff;
+}
+
+.confirmed {
+    color: #f97316;
+    /* Orange */
+    background-color: #fef3eb;
+}
+
+.shipped {
+    color: #6b7280;
+    /* Gray */
+    background-color: #f3f4f6;
+}
+
+.out-for-delivery {
+    color: #d97706;
+    /* Yellow */
+    background-color: #fefcec;
+}
+
+.delivered {
+    color: #047857;
+    /* Green */
+    background-color: #dcfce7;
+}
+
+.default {
+    color: #4b5563;
+    /* Gray */
+    background-color: #edf2f7;
+}
