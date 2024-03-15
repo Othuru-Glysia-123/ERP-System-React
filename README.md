@@ -33,7 +33,8 @@ npm start
 
 ## Live Site :earth_americas:
 
-
+Check out the live site here: simplified-erp-system-react
+(https://simplified-erp-system-react.netlify.app)
 
 ## Screenshots :camera_flash:
 
