@@ -1,4 +1,4 @@
-# ERP System
+# Simplified ERP System
 
 ## Getting Started :rocket:
 
@@ -28,7 +28,7 @@ npm install
 npm start
 ```
 
-5. And it will direct to the browser to access the ERP System React application.
+5. And it will direct to the browser to access the Simplified ERP System React application.
 
 
 ## Live Site :earth_americas:
